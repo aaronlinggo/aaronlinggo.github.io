@@ -71,22 +71,16 @@ const config = {
       from: '2015',
       to: '2019',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Undergraduate Degree',
-      from: '2020',
-      to: 'present',
-    },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: '',
+      /* title: '',
       description:
         '',
       imageUrl: '',
-      link: '',
+      link: '', */
     },
   ],
   googleAnalytics: {

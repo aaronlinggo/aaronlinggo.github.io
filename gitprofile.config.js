@@ -2,8 +2,8 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
+    username: 'aaronlinggo', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -11,18 +11,18 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'aaronlinggo',
+    twitter: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'aaronlinggosatria@gmail.com',
   },
   resume: {
     fileUrl:
@@ -32,32 +32,28 @@ const config = {
     'PHP',
     'Laravel',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Vue.js',
     'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'HTML',
     'CSS',
-    'Antd',
+    'Bootstrap',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Institut Sains dan Teknologi Terpadu Surabaya',
+      position: 'Website Developer',
+      from: 'Januari 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://istts.ac.id',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Jeanieforyou ',
+      position: 'Website Developer',
+      from: 'September 2022',
+      to: 'October 2022',
+      companyLink: '',
     },
   ],
   /* certifications: [
@@ -70,16 +66,16 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
+      institution: 'Institut Sains dan Teknologi Terpadu Surabaya',
       degree: 'Degree',
       from: '2015',
       to: '2019',
     },
     {
       institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      degree: 'Undergraduate Degree',
+      from: '2020',
+      to: 'present',
     },
   ],
 
@@ -100,19 +96,8 @@ const config = {
       link: 'https://example.com',
     },
   ],
-  // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
   },
   themeConfig: {
     defaultTheme: 'winter',
@@ -176,7 +161,7 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/aaronlinggo"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,

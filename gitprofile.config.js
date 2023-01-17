@@ -20,7 +20,7 @@ const config = {
     medium: '',
     dev: '',
     stackoverflow: '', // format: userid/username
-    website: '',
+    website: 'aaronlinggo.github.io',
     phone: '',
     email: 'aaronlinggosatria@gmail.com',
   },
@@ -31,6 +31,8 @@ const config = {
   skills: [
     'PHP',
     'Laravel',
+    'REST APIs',
+    'Back-End Web Development',
     'JavaScript',
     'Vue.js',
     'MySQL',

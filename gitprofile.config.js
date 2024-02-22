@@ -44,10 +44,24 @@ const config = {
   ],
   experiences: [
     {
+      company: 'OMNI IT CONSULTING',
+      position: 'Back-End Developer',
+      from: 'July 2023',
+      to: 'Present',
+      companyLink: 'https://omni.gg',
+    },
+    {
+      company: 'Soluna Dapurindo',
+      position: 'Website Developer',
+      from: 'Juny 2023',
+      to: 'August 2023',
+      companyLink: 'https://www.solunadapurindo.com',
+    },
+    {
       company: 'Institut Sains dan Teknologi Terpadu Surabaya',
       position: 'Website Developer',
       from: 'Januari 2022',
-      to: 'Present',
+      to: 'August 2023',
       companyLink: 'https://istts.ac.id',
     },
     {
@@ -77,13 +91,13 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
-      /* title: '',
+    /*{
+       title: '',
       description:
         '',
       imageUrl: '',
-      link: '', */
-    },
+      link: '', 
+    },*/
   ],
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
